@@ -1,0 +1,3 @@
+# MVVMPractice
+
+キー入力のバリデーションをNotificationCenterとRxSwiftで実装。
