@@ -1,3 +1,5 @@
 # MVVMPractice
 
-キー入力のバリデーション機能を　① Notifcation Center, ② Rxswiftで実装。
+キー入力のバリデーション機能を実装。
+① NotifcationCenter
+② Rxswift
