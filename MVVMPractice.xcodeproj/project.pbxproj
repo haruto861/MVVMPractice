@@ -17,6 +17,7 @@
 		F1AD2979271D3CC5000B3F95 /* NotificationCenter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1AD2978271D3CC5000B3F95 /* NotificationCenter.storyboard */; };
 		F1AD297E271D3CF5000B3F95 /* NotificationCenterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AD297D271D3CF5000B3F95 /* NotificationCenterViewModel.swift */; };
 		F1AD2980271D3D07000B3F95 /* NotificationCenterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AD297F271D3D07000B3F95 /* NotificationCenterModel.swift */; };
+		F1AD2982271D3F4E000B3F95 /* NotificationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AD2981271D3F4E000B3F95 /* NotificationName.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		F1AD2978271D3CC5000B3F95 /* NotificationCenter.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NotificationCenter.storyboard; sourceTree = "<group>"; };
 		F1AD297D271D3CF5000B3F95 /* NotificationCenterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenterViewModel.swift; sourceTree = "<group>"; };
 		F1AD297F271D3D07000B3F95 /* NotificationCenterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenterModel.swift; sourceTree = "<group>"; };
+		F1AD2981271D3F4E000B3F95 /* NotificationName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationName.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				F1AD2977271D3CA6000B3F95 /* NotificationCenter */,
+				F1AD2983271D3FC4000B3F95 /* Extension */,
 				F14EC30827049565001B4EE7 /* AppDelegate.swift */,
 				F14EC30A27049565001B4EE7 /* SceneDelegate.swift */,
 				F14EC30C27049565001B4EE7 /* ViewController.swift */,
@@ -109,6 +112,14 @@
 				F1AD297F271D3D07000B3F95 /* NotificationCenterModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		F1AD2983271D3FC4000B3F95 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F1AD2981271D3F4E000B3F95 /* NotificationName.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,6 +196,7 @@
 				F1AD2976271D3C9F000B3F95 /* NotificationCenterViewController.swift in Sources */,
 				F1AD2980271D3D07000B3F95 /* NotificationCenterModel.swift in Sources */,
 				F14EC30D27049565001B4EE7 /* ViewController.swift in Sources */,
+				F1AD2982271D3F4E000B3F95 /* NotificationName.swift in Sources */,
 				F1AD297E271D3CF5000B3F95 /* NotificationCenterViewModel.swift in Sources */,
 				F14EC30927049565001B4EE7 /* AppDelegate.swift in Sources */,
 				F14EC30B27049565001B4EE7 /* SceneDelegate.swift in Sources */,
