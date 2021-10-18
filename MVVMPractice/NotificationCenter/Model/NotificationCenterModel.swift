@@ -6,3 +6,32 @@
 //
 
 import Foundation
+
+enum Result<type, NotificationCenterModelError>{
+    case success(type)
+    case failure(NotificationCenterModelError)
+}
+
+enum NotificationCenterModelError {
+    case invalidIdAndPassword
+    case invalidId
+    case invalidPassworrd
+    var errorType: String {
+        switch self {
+        case .invalidIdAndPassword:
+            return "IDとPasswordが未入力です"
+        case .invalidId:
+            return "IDが未入力です"
+        case .invalidPassworrd:
+            return "パスワードが未入力です"
+        }
+    }
+}
+
+
+protocol NotificationCenterModelProtocol {
+    func validate(idText: String?, password: String?) -> Result<Void, NotificationCenterModelError>
+}
+
+final class NotificationCenterModel{
+}
