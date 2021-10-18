@@ -26,13 +26,13 @@ final class NotificationCenterViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        //通知を受け取る
+        //通知を受け取る→画面を更新する
         notificationCenter.addObserver(
             self,
             selector: #selector(updateValidationText(notification:)),
             name: Notification.Name.changeText,
             object: nil)
-        //通知を受け取る
+        //通知を受け取る→画面を更新する
         notificationCenter.addObserver(
             self,
             selector: #selector(updateValidationColor(notification:)),
