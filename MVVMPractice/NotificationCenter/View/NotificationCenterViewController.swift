@@ -20,13 +20,24 @@ final class NotificationCenterViewController: UIViewController {
             passwordTextField.addTarget(self, action: #selector(textFieldEditingChanged), for: .editingChanged)
         }
     }
-    @IBOutlet private weak var validationLabel: UILabel!
 
-    private let changeText = Notification.Name.changeText
-    private let changeTextColor = Notification.Name.changeTextColor
+    @IBOutlet private weak var validationLabel: UILabel!
+    private let notificationCenter = NotificationCenter()
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        //通知を受け取る
+        notificationCenter.addObserver(
+            self,
+            selector: #selector(updateValidationText(notification:)),
+            name: Notification.Name.changeText,
+            object: nil)
+        //通知を受け取る
+        notificationCenter.addObserver(
+            self,
+            selector: #selector(updateValidationColor(notification:)),
+            name: Notification.Name.changeTextColor,
+            object: nil)
     }
 }
 
