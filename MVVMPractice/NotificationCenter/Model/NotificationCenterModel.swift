@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum Result<type, NotificationCenterModelError>{
+enum Result<type, NotificationCenterModelError> {
     case success(type)
     case failure(NotificationCenterModelError)
 }
@@ -33,5 +33,17 @@ protocol NotificationCenterModelProtocol {
     func validate(idText: String?, password: String?) -> Result<Void, NotificationCenterModelError>
 }
 
-final class NotificationCenterModel{
+// input
+final class NotificationCenterModel : NotificationCenterModelProtocol {
+    func validate(idText: String?, password: String?) -> Result<Void, NotificationCenterModelError> {
+        if let idText = idText, !idText.isEmpty, let password = password, password.isEmpty {
+            return .failure(.invalidPassworrd)
+        } else if let idText = idText, idText.isEmpty, let password = password, !password.isEmpty {
+            return .failure(.invalidId)
+        } else if let idText = idText, idText.isEmpty, let password = password, password.isEmpty {
+            return .failure(.invalidIdAndPassword)
+        } else {
+            return .success(())
+        }
+    }
 }
