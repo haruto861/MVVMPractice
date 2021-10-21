@@ -66,7 +66,7 @@
 		F14EC30727049565001B4EE7 /* MVVMPractice */ = {
 			isa = PBXGroup;
 			children = (
-				F1AD2977271D3CA6000B3F95 /* NotificationCenter */,
+				F1AD2977271D3CA6000B3F95 /* NotificationCenterPattern */,
 				F1AD2983271D3FC4000B3F95 /* Extension */,
 				F14EC30827049565001B4EE7 /* AppDelegate.swift */,
 				F14EC30A27049565001B4EE7 /* SceneDelegate.swift */,
@@ -79,14 +79,14 @@
 			path = MVVMPractice;
 			sourceTree = "<group>";
 		};
-		F1AD2977271D3CA6000B3F95 /* NotificationCenter */ = {
+		F1AD2977271D3CA6000B3F95 /* NotificationCenterPattern */ = {
 			isa = PBXGroup;
 			children = (
 				F1AD297C271D3CD8000B3F95 /* Model */,
 				F1AD297B271D3CD0000B3F95 /* ViewModel */,
 				F1AD297A271D3CC9000B3F95 /* View */,
 			);
-			path = NotificationCenter;
+			path = NotificationCenterPattern;
 			sourceTree = "<group>";
 		};
 		F1AD297A271D3CC9000B3F95 /* View */ = {
