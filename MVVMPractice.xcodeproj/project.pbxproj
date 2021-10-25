@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,12 +12,15 @@
 		F14EC30B27049565001B4EE7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14EC30A27049565001B4EE7 /* SceneDelegate.swift */; };
 		F14EC31227049566001B4EE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F14EC31127049566001B4EE7 /* Assets.xcassets */; };
 		F14EC31527049566001B4EE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F14EC31327049566001B4EE7 /* LaunchScreen.storyboard */; };
+		F160F71D2726627800D17C61 /* RxSwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F160F71C2726627800D17C61 /* RxSwiftViewController.swift */; };
+		F160F71F272662B400D17C61 /* RxSwift.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F160F71E272662B400D17C61 /* RxSwift.storyboard */; };
 		F1AD2976271D3C9F000B3F95 /* NotificationCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AD2975271D3C9F000B3F95 /* NotificationCenterViewController.swift */; };
 		F1AD2979271D3CC5000B3F95 /* NotificationCenter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1AD2978271D3CC5000B3F95 /* NotificationCenter.storyboard */; };
 		F1AD297E271D3CF5000B3F95 /* NotificationCenterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AD297D271D3CF5000B3F95 /* NotificationCenterViewModel.swift */; };
 		F1AD2980271D3D07000B3F95 /* NotificationCenterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AD297F271D3D07000B3F95 /* NotificationCenterModel.swift */; };
 		F1AD2982271D3F4E000B3F95 /* NotificationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AD2981271D3F4E000B3F95 /* NotificationName.swift */; };
 		F1F1242D2722F16C009B38FB /* RxSwiftViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F1242C2722F16C009B38FB /* RxSwiftViewModel.swift */; };
+		F1F1242F2722F486009B38FB /* RxSwiftModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F1242E2722F486009B38FB /* RxSwiftModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,12 +33,15 @@
 		F14EC31127049566001B4EE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F14EC31427049566001B4EE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F14EC31627049566001B4EE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F160F71C2726627800D17C61 /* RxSwiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftViewController.swift; sourceTree = "<group>"; };
+		F160F71E272662B400D17C61 /* RxSwift.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RxSwift.storyboard; sourceTree = "<group>"; };
 		F1AD2975271D3C9F000B3F95 /* NotificationCenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenterViewController.swift; sourceTree = "<group>"; };
 		F1AD2978271D3CC5000B3F95 /* NotificationCenter.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NotificationCenter.storyboard; sourceTree = "<group>"; };
 		F1AD297D271D3CF5000B3F95 /* NotificationCenterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenterViewModel.swift; sourceTree = "<group>"; };
 		F1AD297F271D3D07000B3F95 /* NotificationCenterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenterModel.swift; sourceTree = "<group>"; };
 		F1AD2981271D3F4E000B3F95 /* NotificationName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationName.swift; sourceTree = "<group>"; };
 		F1F1242C2722F16C009B38FB /* RxSwiftViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftViewModel.swift; sourceTree = "<group>"; };
+		F1F1242E2722F486009B38FB /* RxSwiftModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +62,6 @@
 				CD1E5F7A88339E56D9B32E6B /* Pods-MVVMPractice.debug.xcconfig */,
 				D48D2AB5A41BAB80ED889EE5 /* Pods-MVVMPractice.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -157,6 +162,8 @@
 		F1B72D0A272173C000D248F0 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F160F71C2726627800D17C61 /* RxSwiftViewController.swift */,
+				F160F71E272662B400D17C61 /* RxSwift.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -172,6 +179,7 @@
 		F1B72D0C272173DA00D248F0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F1F1242E2722F486009B38FB /* RxSwiftModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -235,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F160F71F272662B400D17C61 /* RxSwift.storyboard in Resources */,
 				F1AD2979271D3CC5000B3F95 /* NotificationCenter.storyboard in Resources */,
 				F14EC31527049566001B4EE7 /* LaunchScreen.storyboard in Resources */,
 				F14EC31227049566001B4EE7 /* Assets.xcassets in Resources */,
@@ -295,6 +304,8 @@
 				F1AD2982271D3F4E000B3F95 /* NotificationName.swift in Sources */,
 				F1AD297E271D3CF5000B3F95 /* NotificationCenterViewModel.swift in Sources */,
 				F14EC30927049565001B4EE7 /* AppDelegate.swift in Sources */,
+				F160F71D2726627800D17C61 /* RxSwiftViewController.swift in Sources */,
+				F1F1242F2722F486009B38FB /* RxSwiftModel.swift in Sources */,
 				F1F1242D2722F16C009B38FB /* RxSwiftViewModel.swift in Sources */,
 				F14EC30B27049565001B4EE7 /* SceneDelegate.swift in Sources */,
 			);
